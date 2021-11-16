@@ -7,8 +7,6 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "build": "^0.1.4",
-    "component": "^1.1.0",
     "vue": "^3.2.16"
   },
   "devDependencies": {
