@@ -3,20 +3,20 @@
   "version": "0.0.0",
   "files": [
     "dist",
-    "index.d.ts"
+    "types"
   ],
-  "main": "./dist/my-lib.umd.js",
-  "typings": "./index.d.ts",
-  "module": "./dist/my-lib.es.js",
+  "main": "./dist/component.umd.js",
+  "typings": "./types/index.d.ts",
+  "module": "./dist/component.es.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.es.js",
-      "require": "./dist/my-lib.umd.js"
+      "import": "./dist/component.es.js",
+      "require": "./dist/component.umd.js"
     }
   },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc src/index.ts --declaration --emitDeclarationOnly --outfile index.d.ts && vite build",
+    "build": "vue-tsc --emitDeclarationOnly && vite build",
     "serve": "vite preview"
   },
   "dependencies": {

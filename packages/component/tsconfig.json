@@ -11,6 +11,8 @@
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
     "types": ["node"],
+    "declaration": true,
+    "declarationDir": "./types"
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["src/index.ts", "src/components/Component.vue"]
 }
