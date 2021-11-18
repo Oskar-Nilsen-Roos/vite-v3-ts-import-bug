@@ -1,4 +1,11 @@
 # Vite + Vue 3 + Typescript NPM module Error Reproduction
+
+## ⚠️ Important: SOLVED
+https://github.com/vuejs/vue-next/issues/4953#issuecomment-970190828
+
+Will keep the repo up for anyone facing a similar issue.
+
+## Description
 Reproduction repo for error recieved while importing a type module of a Vue component with Typescript.
 
 This is a reproduction repo, and applications are split up into two separate folders to simulate an import from NPM, so `import { Component } from '../../component'` would instead look something like `import { Component } from '@company/component'` in regular cases, however the result is the same.

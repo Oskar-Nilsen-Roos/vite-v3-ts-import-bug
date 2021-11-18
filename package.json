@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Reproduction repo for error recieved while importing a type module of a Vue component with Typescript.",
   "workspaces": ["./packages/*"],
-  "main": "index.js",
   "scripts": {
     "build": "npm run build-component && npm run build-consuming-app",
     "build-component": "cd packages/component && npm i && npm run build",
